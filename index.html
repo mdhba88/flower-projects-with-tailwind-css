@@ -4,25 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flowers</title>
+
+    <!-- css link -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome icon connected -->
     <script
       src="https://kit.fontawesome.com/84431d7041.js"
       crossorigin="anonymous"
     ></script>
+    <!-- tailwind css connected -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
     <!-- header section -->
-    <header class="max-w-7xl mt-10 mr-20 mb-0 ml-20">
-      <nav class="flex items-center justify-between">
-        <img src="assets/logo.png" alt="" />
-        <ul class="navListContainer">
-          <li><a href="">Home</a></li>
-          <li><a href="">Shop</a></li>
-          <li><a href="">About us</a></li>
-          <li>
-            <a href=""><i class="fa-solid fa-cart-shopping"></i>Cart ($56)</a>
-          </li>
+    <header class="xl mt-30 mr-30 mb-0 ml-40 sm sm:mt-10 sm:mr-15 mb-0 sm:ml-15">
+      
+      <nav class="flex justify-between mr-15 ml-15 xl:hidden">
+          <h1 class="font-semibold inter text-base">9:41</h1>
+          <div class="flex gap-2">
+              <i class="fa-solid fa-signal"></i>
+              <i class="fa-solid fa-wifi"></i>
+              <i class="fa-solid fa-battery-full"></i>
+          </div>
+      </nav>
+
+      <nav class="flex items-center justify-between mt-5">
+        <img src="assets/logo.png" alt=""/>
+        <ul class="flex gap-5 inter items-center justify-center">
+          <li><a href="" class="font-extrabold text-base sm:hidden">Home</a></li>
+          <li><a href="" class="font-normal text-base ash-color sm:hidden">Shop</a></li>
+          <li><a href="" class="font-normal texsmt-base ash-color sm:hidden">About us</a></li>
+          <li><a href="" class="font-normal text-base flex gap-2"><i class="fa-solid fa-cart-shopping"></i>Cart ($56)</a></li>
         </ul>
       </nav>
     </header>
