@@ -56,14 +56,16 @@
     <main>
       <!-- home section -->
       <section
-        class="mt-30 mr-15 mb-0 ml-15 flex flex-col items-center justify-center gap-7"
+        class="mt-30 mr-15 mb-0 ml-15 flex flex-col items-center justify-center gap-7 xl:flex-row xl:items-end"
       >
         <div class="flex flex-col gap-7 order-2 xl:order-1">
           <div class="flex flex-col gap-4">
-            <h1 class="text-4xl font-bold noto">
+            <h1 class="text-4xl font-bold noto xl:text-7xl">
               Always <span class="orange-color">Fresh</span>
             </h1>
-            <h1 class="text-4xl font-bold noto orange-color">Flowers</h1>
+            <h1 class="text-4xl font-bold noto orange-color xl:text-7xl">
+              Flowers
+            </h1>
           </div>
           <p class="inter ash-color text-xl font-normal">
             Indulge your senses with the beauty and fragrance of our fresh
@@ -73,7 +75,7 @@
         </div>
 
         <div class="order-1 xl:order-2">
-          <img src="assets/hero-flower.png" alt="" class="w-550" />
+          <img src="assets/hero-flower.png" alt="" class="w-550 xl:w-500" />
         </div>
       </section>
 
@@ -82,17 +84,17 @@
         class="mt-30 mr-15 mb-0 ml-15 flex flex-col items-center justify-center gap-7"
       >
         <div class="flex items-center justify-center flex-col gap-5">
-          <h1 class="text-4xl font-bold noto xl:text-7xl">
+          <h1 class="text-4xl font-bold noto xl:text-5xl">
             <span class="orange-color">Our</span> Plants
           </h1>
-          <p class="inter ash-color text-xl font-normal text-center">
+          <p class="inter ash-color text-xl font-normal text-center xl:mx-45">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. From classic roses to exotic blooms, we offer a wide
             variety of fresh.
           </p>
         </div>
 
-        <div class="grid grid-cols-2 gap-7">
+        <div class="grid grid-cols-2 gap-7 xl:grid-cols-4">
           <div class="flex flex-col gap-5">
             <div>
               <img src="assets/sample-flower-image.png" alt="" />
@@ -226,14 +228,22 @@
 
       <!-- flower & plants lover section -->
       <section
-        class="mt-30 mr-15 mb-0 ml-15 flex flex-col items-center justify-center gap-7"
+        class="mt-30 mr-15 mb-0 ml-15 flex flex-col items-center justify-center gap-7 xl:flex-row"
       >
-        <div class="flowerAndPlantsImg">
-          <img class="flowerParent" src="assets/flower-store.png" alt="" />
-          <img class="hidden" src="assets/trusted-badge.png" alt="" />
+        <div class="xl:relative">
+          <div>
+            <img class="xl:w-300" src="assets/flower-store.png" alt="" />
+          </div>
+          <div class="absolute -top-22 -right-16 child-shadow">
+            <img
+              class="hidden xl:block xl:w-50"
+              src="assets/trusted-badge.png"
+              alt=""
+            />
+          </div>
         </div>
-        <div class="flex flex-col gap-5">
-          <h1 class="noto text-4xl font-bold noto xl:text-7xl">
+        <div class="flex flex-col gap-5 xl:ml-10">
+          <h1 class="noto text-4xl font-bold noto xl:text-5xl">
             Flower & Plants Lover
           </h1>
           <ul class="list-disc flex flex-col gap-3 ml-6">
@@ -260,10 +270,10 @@
       <section
         class="mt-30 mr-15 mb-0 ml-15 flex flex-col items-center justify-center gap-7"
       >
-        <h1 class="noto text-4xl font-bold noto xl:text-7xl">
+        <h1 class="noto text-4xl font-bold noto xl:text-5xl">
           <span class="orange-color">Latest</span> Deals
         </h1>
-        <p class="inter ash-color text-xl font-normal text-center">
+        <p class="inter ash-color text-xl font-normal text-center xl:mx-45">
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
@@ -272,15 +282,19 @@
 
       <!-- image gallery section -->
       <section
-        class="mt-30 mr-15 mb-0 ml-15 flex flex-col items-center justify-center gap-7"
+        class="mt-30 mr-15 mb-0 ml-15 flex flex-col items-center justify-center gap-7 xl:flex-row"
       >
         <div class="flex flex-col items-center justify-center gap-7">
           <div class="relative">
             <div class="imgOne">
-              <img src="assets/deal-bloom.png" alt="" class="rounded-md" />
+              <img
+                src="assets/deal-bloom.png"
+                alt=""
+                class="rounded-md xl:rounded-xl"
+              />
             </div>
             <div
-              class="absolute top-0 left-0 items-center justify-center flex flex-col bg-color w-92 h-51 rounded-md"
+              class="absolute top-0 left-0 items-center justify-center flex flex-col bg-color w-92 h-51 rounded-md xl:rounded-xl xl:w-91 xl:h-50"
             >
               <p class="noto text-white font-bold text-xl">
                 60% Off | Bloom Plant
@@ -294,10 +308,14 @@
           </div>
           <div class="relative">
             <div class="imgOne">
-              <img src="assets/deal-ana.png" alt="" class="rounded-md" />
+              <img
+                src="assets/deal-ana.png"
+                alt=""
+                class="rounded-md xl:rounded-xl"
+              />
             </div>
             <div
-              class="absolute top-0 left-0 items-center justify-center flex flex-col bg-color w-92 h-50 rounded-md"
+              class="absolute top-0 left-0 items-center justify-center flex flex-col bg-color w-92 h-50 rounded-md xl:rounded-xl xl:w-91 xl:h-49"
             >
               <p class="noto text-white font-bold text-xl">
                 30% Off | Ana Plant
@@ -313,17 +331,21 @@
 
         <div class="relative">
           <div class="imgOne">
-            <img src="assets/deal-zabo.png" alt="" class="w-92 rounded-md" />
+            <img
+              src="assets/deal-zabo.png"
+              alt=""
+              class="w-92 rounded-md xl:w-190 xl:rounded-xl"
+            />
           </div>
           <div
-            class="absolute top-0 bottom-0 items-center justify-center flex flex-col bg-color w-92 h-52 rounded-md"
+            class="absolute top-0 bottom-0 items-center justify-center flex flex-col bg-color w-92 h-52 rounded-md xl:w-188.5 xl:h-106 xl:rounded-xl xl:gap-1"
           >
-            <p class="noto text-white font-bold text-xl">
+            <p class="noto text-white font-bold text-xl xl:text-4xl">
               25% Off | Zabo Plant
             </p>
             <a
               href=""
-              class="text-base font-semibold text-xl text-white border-b-2"
+              class="text-base font-semibold text-xl text-white border-b-2 xl:text-2xl"
               >Shop Now</a
             >
           </div>
@@ -338,7 +360,7 @@
           <img src="assets/news-letter-bg.png" alt="" />
         </div>
         <div class="absolute flex flex-col gap-7 items-center justify-center">
-          <p class="noto text-4xl font-bold text-white noto xl:text-7xl">
+          <p class="noto text-4xl font-bold text-white noto xl:text-5xl">
             Join the colorful Bunch
           </p>
           <input
@@ -346,10 +368,10 @@
             name=""
             id=""
             placeholder="Write email"
-            class="input-tag pl-5 pr-90 py-5 relative text-left inter font-normal rounded-md"
+            class="input-tag pl-5 pr-90 py-5 relative text-left inter font-normal rounded-md xl:pl-5 xl:pr-120 xl:py-4 xl:rounded-none"
           />
           <button
-            class="absolute top-17 left-110 text-white font-semibold inter bg-orange-500 pl-10 pr-10 py-5 rounded-md"
+            class="absolute top-17 left-110 text-white font-semibold inter bg-color pl-10 pr-10 py-5 rounded-md xl:top-19 xl:left-140 xl:pl-10 xl:pr-10 xl:py-4 xl:rounded-none"
           >
             Subscribe
           </button>
@@ -359,18 +381,20 @@
 
     <!-- footer section -->
     <footer
-      class="mt-30 mr-15 mb-30 ml-15 flex flex-col items-center justify-center gap-7"
+      class="mt-30 mr-15 mb-30 ml-15 flex flex-col items-center gap-7 xl:flex-row xl:justify-between"
     >
-      <div class="flex flex-col gap-7 justify-center">
-        <div class="flex flex-col gap-7">
+      <div
+        class="flex flex-col gap-7 xl:flex-row xl:items-start xl:justify-between"
+      >
+        <div class="flex flex-col gap-7 xl:w-80">
           <img src="assets/logo.png" alt="" class="w-45" />
           <p class="inter text-xl font-normal ash-color">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop.
           </p>
         </div>
-        <div class="flex">
-          <div class="flex flex-col gap-7">
+        <div class="flex xl:w-140">
+          <div class="flex flex-col gap-7 xl:grid xl:grid-cols-2 xl:gap-10">
             <a href="" class="inter text-xl font-normal ash-color">Home</a>
             <a href="" class="inter text-xl font-normal ash-color">About</a>
             <a href="" class="inter text-xl font-normal ash-color">Blog</a>

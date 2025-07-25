@@ -26,7 +26,12 @@
 .bg-color {
   background-color: rgba(0, 0, 0, 0.6);
 }
+.bg-color {
+  background-color: #e95a08;
+}
 .input-tag {
   background-color: white;
-  /* padding: 12px 20px; */
+}
+.child-shadow {
+  filter: drop-shadow(-4px 10px 2px rgba(0, 0, 0, 0.25));
 }
