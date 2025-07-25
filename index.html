@@ -16,11 +16,10 @@
     <!-- tailwind css connected -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="xl mt-30 mr-30 mb-0 ml-40 sm sm:mt-10 sm:mr-15 mb-0 sm:ml-15">
     <!-- header section -->
-    <header class="xl mt-30 mr-30 mb-0 ml-40 sm sm:mt-10 sm:mr-15 mb-0 sm:ml-15">
-      
-      <nav class="flex justify-between mr-15 ml-15 xl:hidden">
+    <header>
+      <nav class="flex justify-between mr-15 ml-15 md:hidden xl:hidden">
           <h1 class="font-semibold inter text-base">9:41</h1>
           <div class="flex gap-2">
               <i class="fa-solid fa-signal"></i>
@@ -32,9 +31,9 @@
       <nav class="flex items-center justify-between mt-5">
         <img src="assets/logo.png" alt=""/>
         <ul class="flex gap-5 inter items-center justify-center">
-          <li><a href="" class="font-extrabold text-base sm:hidden">Home</a></li>
-          <li><a href="" class="font-normal text-base ash-color sm:hidden">Shop</a></li>
-          <li><a href="" class="font-normal texsmt-base ash-color sm:hidden">About us</a></li>
+          <li><a href="" class="font-extrabold text-base sm:hidden md:block xl:block">Home</a></li>
+          <li><a href="" class="font-normal text-base ash-color sm:hidden md:block xl:block">Shop</a></li>
+          <li><a href="" class="font-normal texsmt-base ash-color sm:hidden md:block xl:block">About us</a></li>
           <li><a href="" class="font-normal text-base flex gap-2"><i class="fa-solid fa-cart-shopping"></i>Cart ($56)</a></li>
         </ul>
       </nav>
@@ -42,19 +41,19 @@
 
     <main>
       <!-- home section -->
-      <section id="homeSectionContainer">
-        <div class="homeTitleDesContainer">
-          <h1>
-            Always <span>Fresh <br />Flowers</span>
-          </h1>
-          <p>
-            Indulge your senses with the beauty and fragrance of our fresh
+      <section class="flex items-end justify-between mt-30 sm: flex-col sm:gap-7">
+        <div class="flex flex-col gap-5 sm:order-1">
+          <div class="flex flex-col gap-3">
+            <h1 class="text-7xl font-bold noto sm:text-4xl">Always <span class="orange-color">Fresh</span></h1>
+            <h1 class="text-7xl font-bold noto orange-color sm:text-4xl">Flowers</h1>
+          </div>
+          <p class="inter ash-color text-xl font-normal">Indulge your senses with the beauty and fragrance of our fresh
             flower shop. From classic roses to exotic blooms, we offer a wide
-            variety of fresh flowers that are perfect for any occasion.
-          </p>
+            variety of fresh flowers that are perfect for any occasion.</p>
         </div>
+
         <div class="homeImgContainer">
-          <img src="assets/hero-flower.png" alt="" />
+          <img src="assets/hero-flower.png" alt="" class="w-550 sm:order-none"/>
         </div>
       </section>
 

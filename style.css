@@ -8,6 +8,7 @@
     --inter-fonts: "Inter", sans-serif;
     --noto-serif: "Noto Serif", serif;
     --ash-color: #8987A1;
+    --orange-color: #E95A08;
 }
 .inter{
     font-family: var(--inter-fonts);
@@ -17,4 +18,7 @@
 }
 .ash-color{
     color: var(--ash-color);
+}
+.orange-color{
+    color: var(--orange-color);
 }
