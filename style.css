@@ -1,24 +1,28 @@
 /* noto serif fonts */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* inter fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-:root{
-    --inter-fonts: "Inter", sans-serif;
-    --noto-serif: "Noto Serif", serif;
-    --ash-color: #8987A1;
-    --orange-color: #E95A08;
+:root {
+  --inter-fonts: "Inter", sans-serif;
+  --noto-serif: "Noto Serif", serif;
+  --ash-color: #8987a1;
+  --orange-color: #e95a08;
 }
-.inter{
-    font-family: var(--inter-fonts);
+.inter {
+  font-family: var(--inter-fonts);
 }
-.noto{
-    font-family: var(--noto-serif);
+.noto {
+  font-family: var(--noto-serif);
 }
-.ash-color{
-    color: var(--ash-color);
+.ash-color {
+  color: var(--ash-color);
 }
-.orange-color{
-    color: var(--orange-color);
+.orange-color {
+  color: var(--orange-color);
+}
+
+.bg-color {
+  background-color: rgba(0, 0, 0, 0.6);
 }
