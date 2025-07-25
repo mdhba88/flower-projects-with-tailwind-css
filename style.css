@@ -38,3 +38,6 @@
 .line-height {
   line-height: 5px;
 }
+.image-color {
+  background-color: rgba(0, 0, 0, 0.6);
+}
