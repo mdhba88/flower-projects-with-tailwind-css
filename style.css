@@ -26,3 +26,7 @@
 .bg-color {
   background-color: rgba(0, 0, 0, 0.6);
 }
+.input-tag {
+  background-color: white;
+  /* padding: 12px 20px; */
+}
